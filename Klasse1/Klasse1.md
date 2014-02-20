@@ -13,20 +13,20 @@
 
 ![mousestate](img/ms.png)
 
-### Beispielpatch1
+### Patch1
 
 - X = Frequenz
 - Y = Grenzfrequenz eines Filters
 
 ![mousestate](img/ms_example.png)
 
-### Beispielpatch2
+### Patch2
 
 - Trackpad-Bewegung stuert die Lautstärke
 
 ![mousestate](img/ms2.png)
 
-### Beispielpatch3 (Aufgabe)
+### Patch3 (Aufgabe)
 
 - Scratching
 
@@ -39,12 +39,12 @@
 ![fingerpinger](img/fingerpinger.png)
 
 
-### Beispielpatch4
+### Patch4
 
 - Winkel des Fingers stuert Panning
 ![](img/multitouch1.png)
 
-### Beispielpatch5
+### Patch5
 
 - After-Touch Effekt
 ![](img/multitouch2.png)
@@ -52,17 +52,17 @@
 - Was sind semi-major-axis und semi-minor-axis
 ![](img/semi.png)
 
-### Beispielpatch6 (Aufgabe)
+### Patch6 (Aufgabe)
 
 - Distanz zwischen zwei Fingern stuert Grenzfrequenz
 - ![](img/multitouch3.png)
 
-### Beispielpatch7
+### Patch7
 
 - Winkel zwichen zwei Punkten stuert Frequenz
 - ![](img/multitouch4.png)
 
-### Beispielpatch8 (Aufgabe)
+### Patch8 (Aufgabe)
 
 - Flächeinhalt eines Dreiecks steurt die Lautstärke
 - ![](img/multitouch5.png)
@@ -72,24 +72,23 @@
 
 -![](img/key1.png)
 
-### Beispielpatch1
+### Patch1
 -![](img/key2.png)
 
 
-### Beispielpatch2
+### Patch2
 -![](img/key3.png)
 
 
-### Beispielpatch3
+### Patch3
+- Sequencer
 -![](img/key4.png)
 
 
-### Beispielpatch4
+### Patch4
 
 - Sequencer
 -![](img/key5.png)
-
-
 
 
 ### Virtuoso Musiker mit Tastatur
@@ -97,50 +96,86 @@
 - [Samchillian](http://en.wikipedia.org/wiki/Samchillian)
 - [Demo](http://www.youtube.com/watch?v=lAAhQMU2918)
 
-### Beispielpatch5 (Aufgabe)
+### Patch5 (Aufgabe)
 
-- Programm Samchillian
-
-
-
-
-
-
-
-# Videokamera
-
-
-
-
-### Beispielpatch1
-
-
-### Beispielpatch2
-
-### Beispielpatch3
-
-### Beispielpatch4
-
-
+- relative Tastatur
 
 
 # Mikrofon
 
+## peakamp~
+![](img/peakamp~.png)
 
-### Beispielpatch1
-
-
-### Beispielpatch2
-
-### Beispielpatch3
-
-### Beispielpatch4
-
-### Beispielpatch5
+### Patch1
+![](img/mic1.png)
 
 
+### Patch2
+![](img/mic2.png)
+
+### Patch3
+- als zwei Befehele
+![](img/mic3.png)
 
 
-## Stanford Laptop Orchestra
+## "Music for flute" von Cort Lippe 
+
+![](img/Cort_Flute.jpg)
+[Ausschnitt .wav](img/Lippe-flute.wav)
+
+## bonk~
+[bonk~](http://crca-archive.ucsd.edu/~tapel/software.html)
+
+### Patch4
+
+- mapping Lautstärke - Lautstärke
+![](img/mic4.png)
+
+### Patch5
+- mapping Lautstärke - Frequenz
+![](img/mic5.png)
+
+
+### Idee
+
+[Maurizio Kagel - Translation - Roatation](http://noteyobservations.blogspot.de/2012/10/mauricio-kagel-rotation.html)
+
+
+## sigmund~
+
+![sigmund](img/sigmund~.png)
+
+[Max/MSP External](http://crca-archive.ucsd.edu/~tapel/software.html)
+
+
+### Patch6
+![](img/mic6.png)
+
+
+
+
+
+
+
+
+
+## Andere Objekte
+
+### zerox~
+- nützlich Ton und Geräusch zu unterschieden
+
+### edge~
+- zero to non-zero / non-zero to zero transition
+
+### rampsmooth~ / slide~
+- um wicher Hülkurve zu erzeugen
+
+
+## Wietere Entwicklung 
+
+[Mogees](http://www.brunozamborlin.com/mogees/)
+
+
+## Musik mit Laptop
 
 [Website](http://slork.stanford.edu)

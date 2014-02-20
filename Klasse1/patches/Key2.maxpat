@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 240.0, 34.0, 18.0 ],
-					"presentation_rect" : [ 278.0, 236.0, 0.0, 0.0 ],
 					"text" : "$1 0"
 				}
 
@@ -94,8 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 281.0, 171.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 150.0, 201.0, 0.0, 0.0 ]
+					"patching_rect" : [ 281.0, 171.0, 50.0, 20.0 ]
 				}
 
 			}
