@@ -13,7 +13,7 @@
 
 - blinkende LED
 
-![blink](img/blink.png)
+![blink](img/blink.PNG)
 
 #### mit einer externen LED
 
