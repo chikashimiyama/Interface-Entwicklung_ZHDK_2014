@@ -1,0 +1,40 @@
+# Arduino (1)
+
+## Webseite
+
+[arduino.cc](http://arduino.cc)
+
+## ATMEL AVR
+
+Arduino = ATMEL AVR Mikrokontroller + Anschlüsse + Quarze + Programmierumgebung 
+
+[ATMEL AVR 8bit](http://www.atmel.com/products/microcontrollers/avr/default.aspx)
+
+Programmierung: mit C oder Assembly Language
+
+---
+Preis
+
+- ATMega328  2,95 $
+- Arduino Uno   20,00 $
+
+---
+
+## Elektronische Komponenten
+
+### LED (Light Emiiting Diode)
+
+
+
+
+### Wiederstand
+
+
+
+
+---
+
+Wo kann ich diese Komponenten kaufen?
+
+- [pusterla](http://www.pusterla.ch) in Zürich
+- [play-zone](http://www.play-zone.ch]
