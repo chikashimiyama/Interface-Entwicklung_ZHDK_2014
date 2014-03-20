@@ -17,76 +17,76 @@
 
 #### mit einer externen LED
 
-![photo1](img/led.jpg)
+![photo1](img/led.JPG)
 ### Sketch2
-![variable](img/variable.png)
+![variable](img/variable.PNG)
 
 
 ### Sketch3
 
 - langsamer
 
-![rit](img/rit.png)
+![rit](img/rit.PNG)
 
 
 ### Sketch4
 
 - langsamer und schneller
 
-![rit_accel](img/rit_accel.png)
+![rit_accel](img/rit_accel.PNG)
 
 
 ### Sketch5
 
 - randomisierten Intervalle
 
-![random](img/random.png)
+![random](img/random.PNG)
 
 
 ### Sketch6
 
 - Serial.println
 
-![println](img/println.png)
+![println](img/println.PNG)
 
 - tools -> Serial Monitor
 
-![monitor](img/monitor.png)
+![monitor](img/monitor.PNG)
 
 ### Sketch7
 
 - random + serial monitor
 
-![random_monitor](img/random_monitor.png)
+![random_monitor](img/random_monitor.PNG)
 
 - serial monitor
 
-![monitor](img/r_monitor.png)
+![monitor](img/r_monitor.PNG)
 
 
 ### Sketch8
 
 - einfache Kalkulation in Arduino
 
-![calculation](img/calculation.png)
+![calculation](img/calculation.PNG)
 
 
 ### Sketch9
 
 - Schalter und Serial
 
-![swtich](img/switch.png)
+![swtich](img/switch.PNG)
 
-![photo2](img/switch.jpg)
+![photo2](img/switch.JPG)
 ### Sketch10
 
 - "serial" Objekt in Max
 
-![max_switch](img/max_switch.png)
+![max_switch](img/max_switch.PNG)
 
 - max patch
 
-![max_swtich_mpatch](img/max_switch_mpatch.png)
+![max_swtich_mpatch](img/max_switch_mpatch.PNG)
 ### Sketch11
 
 - Aufgabe: Programmieren Sie das folgende System mit einem Arduino, einer LED und einem Schalter. 
@@ -102,20 +102,20 @@
 - Max steuert die LED
 
 
-![max_switch_LED](img/max_switch_LED.png)
+![max_switch_LED](img/max_switch_LED.PNG)
 
 
 - max patch
 
-![max_switch_LED_mpatch](img/max_switch_LED_mpatch.png)
+![max_switch_LED_mpatch](img/max_switch_LED_mpatch.PNG)
 
 ### Sketch13
 
 - das Blinken als Klang 
 
-![variable](img/variable.png)
+![variable](img/variable.PNG)
 
-![photo3](img/piezo.jpg)
+![photo3](img/piezo.JPG)
 
 ---
 ## Mikrokontroller Musiker
