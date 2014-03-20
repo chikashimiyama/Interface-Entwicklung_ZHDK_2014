@@ -1,7 +1,7 @@
 int buttonPin = 3;
 
 void setup() { 
-  Serial.begin(9800);  
+  Serial.begin(9600);  
   pinMode(buttonPin, INPUT);
 }
 

@@ -13,7 +13,7 @@ void loop() {
   digitalWrite(led, LOW); 
   delay(time);
   time = time + factor;
-  if(time > 500){
+  if(time > 250){
      factor = -10; 
   }else if(time < 50){
      factor = 10; 

@@ -3,7 +3,7 @@ int thisYear = 2014;
 int birthYear = 1979;
 
 void setup() { 
-  Serial.begin(9800);  
+  Serial.begin(9600);  
 }
 
 void loop() {
@@ -12,6 +12,6 @@ void loop() {
   Serial.print( birthYear );
   Serial.print(" and I am now ");
   Serial.print( age );
-  Serial.println("years old");
+  Serial.println(" years old.");
   delay(1000);
 }
