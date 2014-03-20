@@ -18,20 +18,24 @@
 #### mit einer externen LED
 
 ![photo1](img/led.JPG)
+
 ### Sketch2
+
+- mit Variable
+
 ![variable](img/variable.PNG)
 
 
 ### Sketch3
 
-- langsamer
+- rit...
 
 ![rit](img/rit.PNG)
 
 
 ### Sketch4
 
-- langsamer und schneller
+- rit und accel
 
 ![rit_accel](img/rit_accel.PNG)
 
@@ -66,7 +70,7 @@
 
 ### Sketch8
 
-- einfache Kalkulation in Arduino
+- einfache Mathematik in Arduino
 
 ![calculation](img/calculation.PNG)
 
@@ -78,6 +82,7 @@
 ![swtich](img/switch.PNG)
 
 ![photo2](img/switch.JPG)
+
 ### Sketch10
 
 - "serial" Objekt in Max
@@ -87,6 +92,7 @@
 - max patch
 
 ![max_swtich_mpatch](img/max_switch_mpatch.PNG)
+
 ### Sketch11
 
 - Aufgabe: Programmieren Sie das folgende System mit einem Arduino, einer LED und einem Schalter. 
@@ -95,12 +101,12 @@
 
 1. Wenn der Schlater ein ist, blinkt die LED aller 0,2 Sekunden.
 2. Wenn der schalter aus ist, blinkt die LED gar nicht.
+
 ---
 
 ### Sketch12
 
 - Max steuert die LED
-
 
 ![max_switch_LED](img/max_switch_LED.PNG)
 
