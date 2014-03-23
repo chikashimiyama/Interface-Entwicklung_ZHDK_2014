@@ -7,11 +7,11 @@
 - Arduino Uno hat 6x 10bit ADCs 
 - 10 bit = 0-1023
 
-![](img/adc.png)
+![](img/adc.PNG)
 
 - Serial.write sendet bytes (8bit), deshalb /4 vor Uebertragung
 
-![](img/adc_max.png)
+![](img/adc_max.PNG)
 
 ### Sketch1
 
