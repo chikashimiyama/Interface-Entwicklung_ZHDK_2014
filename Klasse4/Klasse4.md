@@ -26,7 +26,8 @@
 
 	![vd](img/vd.png)  
 
-- voltage divider 2x 220 Ohm
+- voltage divider 2x 220 Ohm 
+- [Widerstandfarbcode](https://www.elektronik-kompendium.de/sites/bau/1109051.htm)
 
 ![](img/vd1.png)  
 
