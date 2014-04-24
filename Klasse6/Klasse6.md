@@ -1,49 +1,72 @@
 # Klasse6
 
-### Kabelose Lösungen - Video, Kinect, Leapmotion und Xbee -	 
+- Kabelose Lösungen - Video, Kinect, Leapmotion und Xbee
 
-
---
 ## Video Erkennung mit Jitter
 
+### Patch1 
 
-### Video auf einem Max Patch
+- Videoaufnahme
 
+![Patch1](img/patch1.png)
 
-### Videoaufnahme
+### Patch2
 
-![Patch1](img/patch1.jpg)
+- Videoaufnahme / Wiedergabe
+![Patch2](img/patch2.png)
 
-![Patch2](img/patch2.jpg)
+### Patch3
 
-![Patch3](img/patch3.jpg)
+- Untershied
+![Patch3](img/patch3.png)
 
-![Patch4](img/patch4.jpg)
+### Patch4
 
-![Patch5](img/patch5.jpg)
+- Untershied als Zahlen
+![Patch4](img/patch4.png)
 
+### Patch5
 
+- Bewegungserkennung
+![Patch5](img/patch5.png)
 
 ---
 ## Kinect
 
+Zwei Kinect-Sensor
+
+- Kinect for XBox (Hacking möglich)
+- Kinect for Windows (mit offiziellem SDK , C++ oder C#) 
+
+Kinect for Windows
+
+- [Kinect for Windows](http://www.microsoft.com/en-us/kinectforwindows/)
+
+Vergleich Kinect V1 und V2
+
+- [Kinect v1 und v2](https://www.youtube.com/watch?v=eNIP9nFo9n4)
+
+Kinect for Max/MSP
+
+- [jit.freenect.grab](http://jmpelletier.com/freenect/)
 
 ---
 ## Leap Motion
 
 [Leapmotion](http://www.leapmotion.com)
+![visualizer](img/visualizer.png)
 
 ### Laptop mit Leapmotion
-
+[HP Envy](http://www.computerbild.de/artikel/cb-News-Notebooks-HP-Envy-17-Leap-Motion-Laptop-Gestensteuerung-8747145.html)
 
 ### Leapmotion für Max 
 [aka.leappmotion](http://akamatsu.org/aka/max/objects/)
+![aka.leapmotion](img/aka.leapmotion.png)
 
 
 ### Leapmotion für OSC
 [leapOSC](https://github.com/morphiccreative/leapOSC)
 [OSC Motion](https://airspace.leapmotion.com/apps/osc-motion/osx)
-
 
 
 ---
@@ -92,12 +115,6 @@
 ![](img/mic5.png)
 
 
-### Idee
-
-[Maurizio Kagel - Translation - Roatation](http://noteyobservations.blogspot.de/2012/10/mauricio-kagel-rotation.html)
-
-## Andere Objekte
-
 ## sigmund~
 
 ![sigmund](img/sigmund~.png)
@@ -121,10 +138,5 @@
 ## Mogees
 
 [Mogees](http://www.brunozamborlin.com/mogees/)
-
-
-## Musik mit Laptop
-
-[Website](http://slork.stanford.edu)
 
 

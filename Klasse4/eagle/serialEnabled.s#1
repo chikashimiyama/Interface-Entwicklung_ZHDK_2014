@@ -712,6 +712,7 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <parts>
 <part name="PCB1" library="E14_Arduino" deviceset="ARDUINO_UNO" device=""/>
 <part name="INFRARED" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="S_LCD" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -720,6 +721,7 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <instances>
 <instance part="PCB1" gate="G$1" x="2.54" y="30.48"/>
 <instance part="INFRARED" gate="A" x="0" y="-7.62" rot="R270"/>
+<instance part="S_LCD" gate="A" x="25.4" y="66.04" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -751,6 +753,35 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <pinref part="PCB1" gate="G$1" pin="A0"/>
 <wire x1="-7.62" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="S_LCD" gate="A" pin="3"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="PCB1" gate="G$1" pin="1(TX)"/>
+<wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="S_LCD" gate="A" pin="2"/>
+<wire x1="25.4" y1="63.5" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="55.88" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="PCB1" gate="G$1" pin="GND"/>
+<wire x1="-12.7" y1="55.88" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="S_LCD" gate="A" pin="1"/>
+<wire x1="22.86" y1="63.5" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="58.42" x2="-38.1" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="PCB1" gate="G$1" pin="3.3V"/>
+<wire x1="-38.1" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
