@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>50</x>
+      <y>310</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>generate
+sound</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>0</x>
+      <y>240</y>
+      <w>120</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100;70;100;30;30;30;30;150;100;150;100;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>10</x>
+      <y>160</y>
+      <w>300</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>topcenter:System
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.TimeSignal</type>
+    <coordinates>
+      <x>200</x>
+      <y>200</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>timer 
+(interrupt)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>220</x>
+      <y>260</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;80;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>200</x>
+      <y>350</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>randomize
+freq</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -5,22 +5,35 @@ Alle Functionen von Arduino
 
 ## Interrupt und Arduino
 
+[Was ist Interrupt? (wiki)](http://de.wikipedia.org/wiki/Interrupt)
 
 ### Sketch 1
 
 -  Tonhöhe-Randomisierung mit einem Knopf (ohne Interrupt)
 
+![sketch1](img/sk1_diagram.png)
+
 ![no_intterupt](img/no_interrupt.png)
+
+
+#### Verbindung
+
+- PIN 2 - Knopf - GND
+- PIN 13 - Lautsprecher - GND
 
 ### Sketch 2
 
 - einmalige Aktualisierung
+
+![sketch2](img/sk2_diagram.png)
 
 ![no_intterupt_improved](img/no_interrupt_improved.png)
 
 ### Sketch 3
 
 - mit Hardware Interrupt
+
+![sketch3](img/sk3_diagram.png)
 
 ![hardware_interrupt](img/interrupt.png)
 
@@ -34,20 +47,26 @@ ATMega168/328 hat "3 Hardware Timers". Diese Timers funktionieren unabhängig vo
 
 - Blinkende LED mit Timer
 
+![sketch4](img/sk4_diagram.png)
+
 ![timer 1](img/timer1_1.png)
 
 ### Sketch 5
 
 - Ton mit Timer
 
-![timer 2](img/timer1_2.png)
+![sketch5](img/sk5_diagram.png)
 
+![timer 2](img/timer1_2.png)
 
 ### Sketch 6
 
 - Array und Timer
 
+![sketch6](img/sk6_diagram.png)
+
 ![Rhythm](img/rhythm.png)
+
 
 ### Sketch 7
 
@@ -65,6 +84,7 @@ ATMega168/328 hat "3 Hardware Timers". Diese Timers funktionieren unabhängig vo
 ## PWM (Pulse Wave Modulation)
 
 -[PWM wiki](http://de.wikipedia.org/wiki/Pulsweitenmodulation)
+
 -[Arduino PWM](http://arduino.cc/en/Tutorial/PWM)
 
 ### Sketch 9
@@ -81,7 +101,7 @@ ATMega168/328 hat "3 Hardware Timers". Diese Timers funktionieren unabhängig vo
 
 ### Sketch 11
 
-- AnalogRead und AnalogWrite
+- Direkt Verbindung zwischen AnalogRead und AnalogWrite
 
 ![analogin_out](img/in_out.png)
 
