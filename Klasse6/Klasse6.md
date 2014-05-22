@@ -2,6 +2,12 @@
 
 - Kabelose Lösungen - Video, Kinect, Leapmotion und Xbee
 
+
+## Jitter für Anfänger
+
+- [download](patch/jitter_patches.zip)
+
+
 ## Video Erkennung mit Jitter
 
 ### Patch1 
